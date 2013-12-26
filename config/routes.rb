@@ -1,6 +1,8 @@
 Jumpthecut::Application.routes.draw do
+  root 'static_pages#home'
   get "static_pages/home"
-  get "static_pages/legalabout"
+  get "static_pages/legal"
+  get "static_pages/about"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
